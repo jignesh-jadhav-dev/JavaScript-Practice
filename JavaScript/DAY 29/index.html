@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" name="name" id="name" placeholder="Enter Your Name" />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter your Password"
+      />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter Your Email"
+      />
+
+      <label for="skills">Select Skills</label>
+      <div id="skills">
+        <input type="checkbox" name="skills" id="java" value="java" />
+        <label for="java">java</label>
+        <input
+          type="checkbox"
+          name="skills"
+          id="javascript"
+          value="javascript"
+        />
+        <label for="javascript">javascript</label>
+        <input type="checkbox" name="skills" id="python" value="python" />
+        <label for="python">python</label>
+      </div>
+
+      <button type="submit">Log in</button>
+    </form>
+
+    <script src="./submit-event.js"></script>
+  </body>
+</html>

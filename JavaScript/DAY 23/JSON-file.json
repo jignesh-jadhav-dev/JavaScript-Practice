@@ -1,0 +1,29 @@
+{
+  "users": [
+    { "name": "abc", "id": 10 },
+    { "name": "abc", "id": 10 },
+    { "name": "abc", "id": 10 }
+  ],
+  "employee": [
+    { "name": "abc", "id": 10 },
+    { "name": "abc", "id": 10 },
+    { "name": "abc", "id": 10 }
+  ],
+  "std": [
+    { "name": "abc", "id": 10 },
+    {
+      "name": "abc",
+      "id": 10,
+      "adress": {
+        "location": "ambadi",
+        "pincode": 421302
+      }
+    },
+    { "name": "abc", "id": 10 }
+  ],
+  "dept": [
+    { "name": "abc", "id": 10 },
+    { "name": "abc", "id": 10 },
+    { "name": "abc", "id": 10 }
+  ]
+}
